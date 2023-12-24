@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    background-color: #400276f9;
+}
+
+#jogo {
+    width: 400px;
+    height: 400px;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.posicoes {
+    width: 175px;
+    height: 175px;
+    background-color: #000000;
+    margin: 13px 6px 10px 14px;
+    border-radius: 5px;
+}
+
+#verde {
+    width: 175px;
+    height: 175px;
+    background-color: #086c0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#verde:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#53f15b, #4a914d);
+}
+
+#vermelho {
+    width: 175px;
+    height: 175px;
+    background-color: #9c0505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#vermelho:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#eb7474f4, #d33b3b);
+}
+
+#amarelo {
+    width: 175px;
+    height: 175px;
+    background-color: #7e8704;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#amarelo:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#deed8b, #93a327);
+}
+
+#azul {
+    width: 175px;
+    height: 175px;
+    background-color: #0c00ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#azul:hover {
+    cursor: pointer;
+    background-image: linear-gradient(#86a5fa, #3056bef4);
+}
+
+#nova-cor-verde {
+    width: 175px;
+    height: 175px;
+    background-color: #26e230;
+    background-image: linear-gradient(#53f15b, #4a914d);
+    border-radius: 5px;
+    display: none;
+}
+
+#nova-cor-amarelo {
+    width: 175px;
+    height: 175px;
+    background-color: #adca0a;
+    background-image: linear-gradient(#deed8b, #93a327);
+    border-radius: 5px;
+    display: none;
+}
+
+#nova-cor-azul {
+    width: 175px;
+    height: 175px;
+    background-color: #2559ea;
+    background-image: linear-gradient(#86a5fa, #3056bef4);
+    border-radius: 5px;
+    display: none;
+}
+
+#nova-cor-vermelho {
+    width: 175px;
+    height: 175px;
+    background-color: #c11f1f;
+    background-image: linear-gradient(#eb7474f4, #d33b3b);
+    border-radius: 5px;
+    display: none;
+}
+
+.espaco-jogo {
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    height: 100px;
+}
+
+.espaco-jogo button {
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #cf46a6;
+    color: #010101;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 4px;
+    width: 90px;
+    height: 40px;
+    margin-left: 35px;
+}
+
+.espaco-jogo button:hover {
+    cursor: pointer;
+    background-color: #ff07b4;
+    color: #ffffff;
+}
+
+.espaco-jog div {
+    margin-top: 20px;
+}
+
+.espaco-jogo p {
+    color: #ffffff;
+    margin: 20px;
+    position: absolute;
+}
